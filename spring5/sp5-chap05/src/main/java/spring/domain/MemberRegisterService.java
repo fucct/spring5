@@ -1,10 +1,12 @@
 package spring.domain;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
 import spring.exception.DuplicateMemberException;
 
 import java.time.LocalDateTime;
 
+@Component("regSvc")
 public class MemberRegisterService {
 
     @Autowired

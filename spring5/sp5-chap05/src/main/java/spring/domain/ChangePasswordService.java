@@ -1,8 +1,10 @@
 package spring.domain;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
 import spring.exception.MemberNotFoundException;
 
+@Component("pwdSvc")
 public class ChangePasswordService {
 
     @Autowired
