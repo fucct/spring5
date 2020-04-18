@@ -1,11 +1,11 @@
 plugins {
     id 'java'
+    id 'war'
 }
 
-group 'org.example'
-version '1.0-SNAPSHOT'
-
 sourceCompatibility = 1.8
+targetCompatibility = 1.8
+compileJava.options.encoding("UTF-8")
 
 repositories {
     mavenCentral()
@@ -13,5 +13,4 @@ repositories {
 
 dependencies {
     compile 'org.springframework:spring-context:5.0.2.RELEASE'
-    implementation 'org.aspectj:aspectjweaver:1.9.4'
 }

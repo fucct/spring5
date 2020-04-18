@@ -1,15 +1,17 @@
 package spring.config;
 
 import org.springframework.beans.factory.annotation.Qualifier;
-import org.springframework.context.annotation.*;
-import spring.domain.*;
+import spring.domain.MemberDao;
+import spring.domain.MemberPrinter;
+import spring.domain.MemberSummaryPrinter;
+import spring.domain.VersionPrinter;
 
 @Configuration
 @ComponentScan(basePackages = {"spring"})
 public class AppCtx {
 
     @Bean
-    public MemberDao memberdao(){
+    public MemberDao memberdao() {
         return new MemberDao();
     }
 

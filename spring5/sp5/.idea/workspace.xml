@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="57e3bf47-b301-4afa-b6b0-9306d28c7c6c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../.gradle/6.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../.gradle/6.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../.gradle/6.1/fileChanges/last-build.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../.gradle/6.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../.gradle/6.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../.gradle/6.1/gc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../.gradle/checksums/checksums.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../.gradle/vcs-1/gc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sp5-chap02" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sp5-chap03" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sp5-chap06/.gradle/6.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sp5-chap06/.gradle/6.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sp5-chap06/.gradle/6.1/fileChanges/last-build.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sp5-chap06/.gradle/6.1/fileContent/fileContent.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sp5-chap06/.gradle/6.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sp5-chap06/.gradle/6.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sp5-chap06/.gradle/6.1/gc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sp5-chap06/.gradle/6.1/javaCompile/javaCompile.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sp5-chap06/.gradle/6.1/javaCompile/taskHistory.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sp5-chap06/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sp5-chap06/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sp5-chap06/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sp5-chap06/.gradle/checksums/checksums.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sp5-chap06/.gradle/vcs-1/gc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sp5-chap06/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sp5-chap06/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sp5-chap06/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sp5-chap06/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sp5-chap06/.idea/markdown-navigator-enh.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sp5-chap06/.idea/markdown-navigator.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sp5-chap06/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sp5-chap06/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sp5-chap06/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sp5-chap06/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sp5-chap06/src/main/java/spring/AppCtx.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sp5-chap06/src/main/java/spring/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sp5-chap06/src/main/java/spring/Client2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sp5-chap06/src/main/java/spring/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sp5-chap07/.gradle/6.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sp5-chap07/.gradle/6.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sp5-chap07/.gradle/6.1/fileChanges/last-build.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sp5-chap07/.gradle/6.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sp5-chap07/.gradle/6.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sp5-chap07/.gradle/6.1/gc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sp5-chap07/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sp5-chap07/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sp5-chap07/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sp5-chap07/.gradle/checksums/checksums.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sp5-chap07/.gradle/vcs-1/gc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sp5-chap07/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sp5-chap07/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sp5-chap07/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sp5-chap07/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sp5-chap07/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sp5-chap07/.idea/markdown-navigator-enh.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sp5-chap07/.idea/markdown-navigator.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sp5-chap07/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sp5-chap07/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sp5-chap07/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sp5-chap07/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sp5-chap07/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sp5-chap07/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sp5-chap07/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sp5-chap07/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sp5-chap07/src/main/java/spring5/domain/Calculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.idea/modules/sp5-chap04.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.gradle/6.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../.gradle/6.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.gradle/6.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../.gradle/6.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.gradle/6.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../.gradle/6.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.gradle/6.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../.gradle/6.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sp5-chap04/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../sp5-chap04/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sp5-chap04/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../sp5-chap04/settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sp5-chap05/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../sp5-chap05/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sp5-chap05/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../sp5-chap05/settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sp5-chap05/src/main/java/spring/config/AppCtx.java" beforeDir="false" afterPath="$PROJECT_DIR$/../sp5-chap05/src/main/java/spring/config/AppCtx.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sp5-chap06/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../sp5-chap06/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sp5-chap06/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../sp5-chap06/settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sp5-chap06/src/main/java/spring/config/AppCtx.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sp5-chap06/src/main/java/spring/domain/Assembler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sp5-chap06/src/main/java/spring/domain/ChangePasswordService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sp5-chap06/src/main/java/spring/domain/Member.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sp5-chap06/src/main/java/spring/domain/MemberDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sp5-chap06/src/main/java/spring/domain/MemberInfoPrinter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sp5-chap06/src/main/java/spring/domain/MemberListPrinter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sp5-chap06/src/main/java/spring/domain/MemberPrinter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sp5-chap06/src/main/java/spring/domain/MemberRegisterService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sp5-chap06/src/main/java/spring/domain/MemberSummaryPrinter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sp5-chap06/src/main/java/spring/domain/RegisterRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sp5-chap06/src/main/java/spring/domain/VersionPrinter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sp5-chap06/src/main/java/spring/exception/DuplicateMemberException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sp5-chap06/src/main/java/spring/exception/MemberNotFoundException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sp5-chap06/src/main/java/spring/exception/WrongIdPasswordException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sp5-chap06/src/main/java/spring/main/MainForAssembler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sp5-chap06/src/main/java/spring/main/MainForSpring.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="1afY1gxeSxDns3ljyG0yBTWIZ8j" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="57e3bf47-b301-4afa-b6b0-9306d28c7c6c" name="Default Changelist" comment="" />
+      <created>1587127901486</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1587127901486</updated>
+      <workItem from="1587127902943" duration="5000" />
+      <workItem from="1587127926725" duration="610000" />
+      <workItem from="1587136215527" duration="199000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+</project>
