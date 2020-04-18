@@ -12,7 +12,7 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-public class MainForSpring {
+public class MainWithDB {
 
     private static ApplicationContext ctx;
 
@@ -75,7 +75,7 @@ public class MainForSpring {
             printHelp();
             return;
         }
-        ChangePasswordService pwdSvc = ctx.getBean("pwdSvc", ChangePasswordService.class);
+        ChangePasswordService pwdSvc = ctx.getBean("changePwdSvc", ChangePasswordService.class);
         try {
             pwdSvc.changePassword(arg[1], arg[2], arg[3]);
             System.out.println("암호 변경 완료!\n");
@@ -97,7 +97,7 @@ public class MainForSpring {
             printHelp();
             return;
         }
-        MemberRegisterService regSvc = ctx.getBean("regSvc", MemberRegisterService.class);
+        MemberRegisterService regSvc = ctx.getBean("memberRegSvc", MemberRegisterService.class);
         RegisterRequest req = new RegisterRequest();
         req.setEmail(arg[1]);
         req.setName(arg[2]);

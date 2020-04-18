@@ -1,6 +1,7 @@
 package spring.domain;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.transaction.annotation.Transactional;
 import spring.exception.DuplicateMemberException;
 
 import java.time.LocalDateTime;
@@ -17,6 +18,7 @@ public class MemberRegisterService {
         this.memberDao = memberDao;
     }
 
+    @Transactional
     public Long register(RegisterRequest req) {
         Member member = memberDao.selectByEmail(req.getEmail());
         if (member != null) {
