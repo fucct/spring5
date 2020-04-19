@@ -1,11 +1,13 @@
 package config;
 
+import domain.AuthService;
 import domain.ChangePasswordService;
 import domain.MemberDao;
 import domain.MemberRegisterService;
 import org.apache.tomcat.jdbc.pool.DataSource;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.context.annotation.Import;
 import org.springframework.jdbc.datasource.DataSourceTransactionManager;
 import org.springframework.transaction.PlatformTransactionManager;
 import org.springframework.transaction.annotation.EnableTransactionManagement;
@@ -49,5 +51,10 @@ public class MemberConfig {
     @Bean
     public ChangePasswordService changePwdSvc(){
         return new ChangePasswordService();
+    }
+
+    @Bean
+    public AuthService authService() {
+        return new AuthService();
     }
 }
