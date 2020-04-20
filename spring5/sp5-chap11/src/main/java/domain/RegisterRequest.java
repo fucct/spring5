@@ -10,7 +10,7 @@ public class RegisterRequest {
     @NotBlank
     @Email
     private String email;
-    @Size(min=6)
+    @Size(min = 6)
     private String password;
     @NotEmpty
     private String confirmPassword;

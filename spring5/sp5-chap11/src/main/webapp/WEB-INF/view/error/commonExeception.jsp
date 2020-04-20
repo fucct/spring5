@@ -11,6 +11,6 @@
     <title>에러 페이지</title>
 </head>
 <body>
-    무언가 에러가 있다..
+무언가 에러가 있다..
 </body>
 </html>

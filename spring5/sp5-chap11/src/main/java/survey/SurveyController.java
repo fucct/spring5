@@ -15,7 +15,7 @@ import java.util.List;
 public class SurveyController {
 
     @GetMapping
-    public String form(Model model){
+    public String form(Model model) {
         List<Question> questions = createQuestions();
         model.addAttribute("questions", questions);
         return "survey/surveyForm";
@@ -30,7 +30,7 @@ public class SurveyController {
     }
 
     @PostMapping
-    public String submit(@ModelAttribute("ansData") Answer data){
+    public String submit(@ModelAttribute("ansData") Answer data) {
         return "survey/submitted";
     }
 }

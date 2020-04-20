@@ -14,8 +14,8 @@ import java.util.List;
 
 public class MemberDao {
 
-    private JdbcTemplate jdbcTemplate;
-    private RowMapper<Member> memberRowMapper = new MemberRowMapper();
+    private final JdbcTemplate jdbcTemplate;
+    private final RowMapper<Member> memberRowMapper = new MemberRowMapper();
 
     public MemberDao(DataSource dataSource) {
         this.jdbcTemplate = new JdbcTemplate(dataSource);

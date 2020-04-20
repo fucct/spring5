@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.ExceptionHandler;
 public class CommonExceptionHandler {
 
     @ExceptionHandler(RuntimeException.class)
-    public String handleRuntimeException(){
+    public String handleRuntimeException() {
         return "error/commonException";
     }
 }

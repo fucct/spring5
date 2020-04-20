@@ -1,8 +1,6 @@
 package config;
 
 import controller.*;
-import domain.AuthService;
-import domain.Member;
 import domain.MemberRegisterService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
@@ -18,7 +16,7 @@ public class ControllerConfig {
     private MemberRegisterService memberRegSvc;
 
     @Bean
-    public RegisterController registerController(){
+    public RegisterController registerController() {
         RegisterController registerController = new RegisterController();
         registerController.setMemberRegisterService(memberRegSvc);
         return registerController;
@@ -45,7 +43,7 @@ public class ControllerConfig {
     }
 
     @Bean
-    public ListCommandController listCommandController(){
+    public ListCommandController listCommandController() {
         return new ListCommandController();
     }
 
@@ -54,4 +52,8 @@ public class ControllerConfig {
         return new MemberDetailController();
     }
 
+    @Bean
+    public IndexController indexController() {
+        return new IndexController();
+    }
 }

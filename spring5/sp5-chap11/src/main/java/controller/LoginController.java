@@ -27,8 +27,8 @@ public class LoginController {
 
     @GetMapping
     public String form(LoginCommand loginCommand,
-                       @CookieValue(value="REMEMBER", required=false) Cookie rCookie){
-        if(rCookie!=null){
+                       @CookieValue(value = "REMEMBER", required = false) Cookie rCookie) {
+        if (rCookie != null) {
             loginCommand.setEmail(rCookie.getValue());
             loginCommand.setRememberEmail(true);
         }
@@ -37,8 +37,8 @@ public class LoginController {
 
     @PostMapping
     public String submit(@Valid LoginCommand loginCommand, Errors errors, HttpSession session,
-                         HttpServletResponse response){
-        if(errors.hasErrors()){
+                         HttpServletResponse response) {
+        if (errors.hasErrors()) {
             return "login/loginForm";
         }
         try {
@@ -52,7 +52,7 @@ public class LoginController {
             rememberCookie.setPath("/");
             if (loginCommand.isRememberEmail()) {
                 rememberCookie.setMaxAge(60 * 60 * 24 * 30);
-            } else{
+            } else {
                 rememberCookie.setMaxAge(0);
             }
             response.addCookie(rememberCookie);
@@ -65,7 +65,7 @@ public class LoginController {
     }
 
     @InitBinder
-    protected void initBinder(WebDataBinder binder){
+    protected void initBinder(WebDataBinder binder) {
         binder.setValidator(new LoginCommandValidator());
     }
 }

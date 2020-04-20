@@ -5,8 +5,8 @@ import java.util.List;
 
 public class Question {
 
-    private String title;
-    private List<String> options;
+    private final String title;
+    private final List<String> options;
 
     public Question(final String title, final List<String> options) {
         this.title = title;
@@ -25,7 +25,7 @@ public class Question {
         return options;
     }
 
-    public boolean isChoice(){
+    public boolean isChoice() {
         return options != null && !options.isEmpty();
     }
 

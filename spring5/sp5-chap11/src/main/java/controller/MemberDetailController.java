@@ -18,7 +18,7 @@ public class MemberDetailController {
     private MemberDao memberDao;
 
     @GetMapping("/members/{id}")
-    public String detail(@PathVariable("id")Long id, Model model){
+    public String detail(@PathVariable("id") Long id, Model model) {
         Member member = memberDao.selectById(id);
         if (member == null) {
             throw new MemberNotFoundException();
@@ -28,12 +28,12 @@ public class MemberDetailController {
     }
 
     @ExceptionHandler(TypeMismatchException.class)
-    public String handleTypeMismatchException(){
+    public String handleTypeMismatchException() {
         return "member/invalidId";
     }
 
     @ExceptionHandler(MemberNotFoundException.class)
-    public String handleMemberNotFoundException(){
+    public String handleMemberNotFoundException() {
         return "member/noMember";
     }
 }

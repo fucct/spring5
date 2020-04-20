@@ -12,11 +12,11 @@ public class AuthCheckInterceptor implements HandlerInterceptor {
         HttpSession session = request.getSession(false);
         if (session != null) {
             Object authInfo = session.getAttribute("authInfo");
-            if (authInfo != null){
+            if (authInfo != null) {
                 return true;
             }
         }
-        response.sendRedirect(request.getContextPath()+"/login");
+        response.sendRedirect(request.getContextPath() + "/login");
         return false;
     }
 }

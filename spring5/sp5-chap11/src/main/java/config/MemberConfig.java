@@ -7,7 +7,6 @@ import domain.MemberRegisterService;
 import org.apache.tomcat.jdbc.pool.DataSource;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
-import org.springframework.context.annotation.Import;
 import org.springframework.jdbc.datasource.DataSourceTransactionManager;
 import org.springframework.transaction.PlatformTransactionManager;
 import org.springframework.transaction.annotation.EnableTransactionManagement;
@@ -18,7 +17,7 @@ import org.springframework.transaction.annotation.EnableTransactionManagement;
 public class MemberConfig {
 
     @Bean
-    public DataSource dataSource(){
+    public DataSource dataSource() {
         DataSource ds = new DataSource();
         ds.setDriverClassName("com.mysql.jdbc.Driver");
         ds.setUrl("jdbc:mysql://localhost/spring5fs?characterEncoding=utf8");
@@ -32,24 +31,24 @@ public class MemberConfig {
     }
 
     @Bean
-    public PlatformTransactionManager transactionManager(){
+    public PlatformTransactionManager transactionManager() {
         DataSourceTransactionManager tm = new DataSourceTransactionManager();
         tm.setDataSource(dataSource());
         return tm;
     }
 
     @Bean
-    public MemberDao memberDao(){
+    public MemberDao memberDao() {
         return new MemberDao(dataSource());
     }
 
     @Bean
-    public MemberRegisterService memberRegSvc(){
+    public MemberRegisterService memberRegSvc() {
         return new MemberRegisterService();
     }
 
     @Bean
-    public ChangePasswordService changePwdSvc(){
+    public ChangePasswordService changePwdSvc() {
         return new ChangePasswordService();
     }
 

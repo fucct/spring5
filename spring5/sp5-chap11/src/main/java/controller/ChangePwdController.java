@@ -20,16 +20,16 @@ public class ChangePwdController {
     private ChangePasswordService changePwdSvc;
 
     @GetMapping
-    public String form(@ModelAttribute("command") ChangePwdCommand pwdCmd){
+    public String form(@ModelAttribute("command") ChangePwdCommand pwdCmd) {
         return "edit/changePwdForm";
     }
 
     @PostMapping
-    public String submit(@ModelAttribute("command") @Valid ChangePwdCommand pwdCmd, Errors errors, HttpSession session){
+    public String submit(@ModelAttribute("command") @Valid ChangePwdCommand pwdCmd, Errors errors, HttpSession session) {
         if (errors.hasErrors()) {
             return "edit/changePwdForm";
         }
-        AuthInfo authInfo = (AuthInfo)session.getAttribute("authInfo");
+        AuthInfo authInfo = (AuthInfo) session.getAttribute("authInfo");
         try {
             changePwdSvc.changePassword(
                     authInfo.getEmail(),
@@ -44,7 +44,7 @@ public class ChangePwdController {
     }
 
     @InitBinder
-    protected void initBinder(WebDataBinder binder){
+    protected void initBinder(WebDataBinder binder) {
         binder.setValidator(new ChangePwdCommandValidator());
     }
 }

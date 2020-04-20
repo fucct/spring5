@@ -13,22 +13,22 @@
     <title><spring:message code="change.pwd.title"/></title>
 </head>
 <body>
-    <form:form>
-        <p>
-            <label>
-                <spring:message code="oldPassword"/>:<br>
-                <form:input path="oldPassword"/>
-                <form:errors path="oldPassword"/>
-            </label>
-        </p>
-        <p>
-            <label>
-                <spring:message code="newPassword"/>:<br>
-                <form:input path="newPassword"/>
-                <form:errors path="newPassword"/>
-            </label>
-        </p>
-        <input type="submit" value="<spring:message code='change.btn' />">
-    </form:form>
+<form:form>
+    <p>
+        <label>
+            <spring:message code="oldPassword"/>:<br>
+            <form:input path="oldPassword"/>
+            <form:errors path="oldPassword"/>
+        </label>
+    </p>
+    <p>
+        <label>
+            <spring:message code="newPassword"/>:<br>
+            <form:input path="newPassword"/>
+            <form:errors path="newPassword"/>
+        </label>
+    </p>
+    <input type="submit" value="<spring:message code='change.btn' />">
+</form:form>
 </body>
 </html>

@@ -6,10 +6,10 @@ import exception.DuplicateMemberException;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.validation.Errors;
-import org.springframework.web.bind.WebDataBinder;
-import org.springframework.web.bind.annotation.*;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestParam;
 
-import javax.servlet.http.HttpServletRequest;
 import javax.validation.Valid;
 
 @Controller
@@ -28,22 +28,22 @@ public class RegisterController {
     }
 
     @PostMapping("register/step2")
-    public String handleStep2(@RequestParam(value = "agree", defaultValue = "false")boolean agree, Model model) {
+    public String handleStep2(@RequestParam(value = "agree", defaultValue = "false") boolean agree, Model model) {
         model.addAttribute("registerRequest", new RegisterRequest());
-        if(agree){
+        if (agree) {
             return "register/step2";
         }
         return "register/step1";
     }
 
     @GetMapping("register/step2")
-    public String getHandleStep2(){
+    public String getHandleStep2() {
         return "redirect:/register/step1";
     }
 
     @PostMapping("register/step3")
-    public String handleStep3(@Valid RegisterRequest regReq, Errors errors){
-        if(errors.hasErrors()){
+    public String handleStep3(@Valid RegisterRequest regReq, Errors errors) {
+        if (errors.hasErrors()) {
             return "register/step2";
         }
         try {
