@@ -1,10 +1,8 @@
 package config;
 
-import controller.ChangePwdController;
-import controller.LoginController;
-import controller.LogoutController;
-import controller.RegisterController;
+import controller.*;
 import domain.AuthService;
+import domain.Member;
 import domain.MemberRegisterService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
@@ -46,6 +44,14 @@ public class ControllerConfig {
         return new ChangePwdController();
     }
 
+    @Bean
+    public ListCommandController listCommandController(){
+        return new ListCommandController();
+    }
 
+    @Bean
+    public MemberDetailController memberDetailController() {
+        return new MemberDetailController();
+    }
 
 }
