@@ -56,4 +56,9 @@ public class ControllerConfig {
     public IndexController indexController() {
         return new IndexController();
     }
+
+    @Bean
+    public RestMemberController restApi(){
+        return new RestMemberController();
+    }
 }

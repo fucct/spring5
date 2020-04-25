@@ -18,6 +18,9 @@ dependencies {
     compile 'javax.validation:validation-api:2.0.1.Final'
     compile 'org.springframework:spring-webmvc:5.0.2.RELEASE'
     compile 'org.springframework:spring-jdbc:5.0.2.RELEASE'
+    compile group: 'com.fasterxml.jackson.core', name: 'jackson-databind', version: '2.9.9'
+    compile group: 'com.fasterxml.jackson.datatype', name: 'jackson-datatype-jsr310', version: '2.10.3'
+
     compile 'org.hibernate:hibernate-validator:6.0.7.Final'
     compile group: 'mysql', name: 'mysql-connector-java', version: '5.1.45'
     compile group: 'org.apache.tomcat', name: 'tomcat-jdbc', version: '8.5.27'

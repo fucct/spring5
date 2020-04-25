@@ -1,17 +1,27 @@
 package domain;
 
 
+import com.fasterxml.jackson.annotation.JsonFormat;
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import exception.WrongIdPasswordException;
 
 import java.time.LocalDateTime;
 
 public class Member {
 
-    private final String email;
-    private final String name;
-    private final LocalDateTime registerDateTime;
+    private  String email;
+    private  String name;
+    @JsonFormat(pattern = "yyyyMMddHHmmss")
+    private LocalDateTime registerDateTime;
     private Long id;
+    @JsonIgnore
     private String password;
+    private String errorMessage;
+
+
+    public Member(final String errorMessage) {
+        this.errorMessage = errorMessage;
+    }
 
     public Member(final String email, final String password, final String name,
                   final LocalDateTime registerDateTime) {
@@ -54,5 +64,13 @@ public class Member {
 
     public boolean matchPassword(String password) {
         return this.password.equals(password);
+    }
+
+    public void setErrorMessage(final String errorMessage) {
+        this.errorMessage = errorMessage;
+    }
+
+    public String getErrorMessage() {
+        return errorMessage;
     }
 }
